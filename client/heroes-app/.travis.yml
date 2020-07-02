@@ -1,4 +1,5 @@
 #.travis.yml
+
 language: node_js
 node_js:
   - "12.16.1"
@@ -14,5 +15,5 @@ after_success:
   - firebase deploy --token $FIREBASE_TOKEN
 notifications:
   email:
-  on_failure: change
-  on_success: manuel.a.e.05@gmail.com
+  on_failure: "manuel.a.e.05@gmail.com"
+  on_success: "manuel.a.e.05@gmail.com"
