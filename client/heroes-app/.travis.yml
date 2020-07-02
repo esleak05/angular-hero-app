@@ -14,5 +14,5 @@ after_success:
   - firebase deploy --token $FIREBASE_TOKEN
 notifications:
   email:
-  on_failure: manuel.a.e.05@gmail.com
+  on_failure: change
   on_success: manuel.a.e.05@gmail.com
